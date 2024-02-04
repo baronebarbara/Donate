@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "pets_and_family.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -19,7 +19,7 @@ struct HomeView: View {
                                 .background(Color.pink.opacity(0.4))
                                 .frame(width: 162, height: 162)
                                 .cornerRadius(30)
-                            Text("\(animal.animalName)")
+                            Text(animal.animalName)
                                 .font(.headline)
                                 .foregroundColor(.gray)
                         }
