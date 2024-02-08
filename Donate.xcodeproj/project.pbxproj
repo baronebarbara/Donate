@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87279D982B70673900D3C929 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87279D972B70673900D3C929 /* DetailView.swift */; };
 		87C74C4B2B65EBF100BEB567 /* DonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C74C4A2B65EBF100BEB567 /* DonateApp.swift */; };
 		87C74C4F2B65EBF200BEB567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C74C4E2B65EBF200BEB567 /* Assets.xcassets */; };
 		87C74C522B65EBF200BEB567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C74C512B65EBF200BEB567 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87279D972B70673900D3C929 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		87C74C472B65EBF100BEB567 /* Donate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Donate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C74C4A2B65EBF100BEB567 /* DonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateApp.swift; sourceTree = "<group>"; };
 		87C74C4E2B65EBF200BEB567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87279D962B704F6E00D3C929 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				87279D972B70673900D3C929 /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		87C74C3E2B65EBF100BEB567 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		87C74C642B66012F00BEB567 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				87279D962B704F6E00D3C929 /* Detail */,
 				87C74C662B673F5500BEB567 /* Initial */,
 				87C74C5B2B65FCB000BEB567 /* Home */,
 			);
@@ -201,6 +212,7 @@
 				87C74C5F2B65FCF200BEB567 /* Animals.swift in Sources */,
 				87C74C622B65FFD900BEB567 /* ApiService.swift in Sources */,
 				87C74C682B673F6800BEB567 /* InitialView.swift in Sources */,
+				87279D982B70673900D3C929 /* DetailView.swift in Sources */,
 				87C74C5D2B65FCC900BEB567 /* HomeViewModel.swift in Sources */,
 				87C74C4B2B65EBF100BEB567 /* DonateApp.swift in Sources */,
 			);
